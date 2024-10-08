@@ -13,11 +13,4 @@ name = "rune"
 crate-type = ["cdylib"]
 
 [dependencies]
-ndarray = "0.15.6"
-num-traits = "0.2.15"
-numpy = "0.18.0"
-
-[dependencies.pyo3]
-version = "0.18.1"
-features = ["extension-module"]
-
+ndarray = "0.16.1"
